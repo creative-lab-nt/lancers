@@ -15,24 +15,7 @@ document.addEventListener('DOMContentLoaded', () => {
         window.addEventListener('scroll', handleScroll);
     }
 
-    // 2. FAQ Accordion
-    const faqItems = document.querySelectorAll('.faq-item');
-    if (faqItems.length > 0) {
-        faqItems.forEach(item => {
-            const questionButton = item.querySelector('.faq-item__question');
-            const answerPanel = item.querySelector('.faq-item__answer');
-
-            if (questionButton && answerPanel) {
-                questionButton.addEventListener('click', () => {
-                    const isExpanded = questionButton.getAttribute('aria-expanded') === 'true';
-                    questionButton.setAttribute('aria-expanded', !isExpanded);
-                    answerPanel.hidden = isExpanded;
-                });
-            }
-        });
-    }
-
-    // 3. Scroll Animations with IntersectionObserver
+    // 2. Scroll Animations with IntersectionObserver
     const animatedElements = document.querySelectorAll('.anim-fade-in, .anim-fade-in-up');
     if (animatedElements.length > 0) {
         const observer = new IntersectionObserver((entries, observer) => {

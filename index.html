@@ -30,17 +30,18 @@
     <!-- ===== Header ===== -->
     <header class="header">
         <div class="header__inner">
-            <a href="#" class="header__logo">Nail Salon Recruit</a>
+            <a href="#" class="header__logo">prish</a>
             <nav class="header__nav">
                 <ul>
                     <li><a href="#top">Top</a></li>
                     <li><a href="#strengths">特徴</a></li>
                     <li><a href="#faq">FAQ</a></li>
                     <li><a href="#requirements">募集要項</a></li>
-                    <li><a href="#flow">入社後の流れ</a></li>
+                    <li><a href="#flow">応募からの流れ</a></li>
+                    <li><a href="#apply">応募</a></li>
                 </ul>
             </nav>
-            <a href="#final-cta" class="header__cta cta-button cta-button--small">今すぐ応募</a>
+            <a href="#apply" class="header__cta cta-button cta-button--small">今すぐ応募</a>
         </div>
     </header>
 
@@ -52,40 +53,43 @@
                 <img src="assets/img/hero-hands.svg" alt="美しいネイルが施された手元のイメージ" class="hero__image hero__image--hands">
             </div>
             <div class="hero__content anim-fade-in-up">
-                <h1 class="hero__title">未経験から、“一生使える”<br>技術と資格を。</h1>
-                <p class="hero__subtitle">充実の研修と資格支援で、あなたのデビューを全力サポート。</p>
-                <a href="#" target="_blank" rel="noopener noreferrer" class="cta-button cta-button--large">
-                    見学・説明会を予約する
-                    <span class="arrow-icon" aria-hidden="true"></span>
-                </a>
+                <h1 class="hero__title">ネイリストになるだけじゃない！</h1>
+                <p class="hero__subtitle">未経験でも、「一生使える」技術と<br>資格を取得できる！</p>
             </div>
         </section>
+
+        <!-- ===== Intro Text ===== -->
+        <section class="intro section-padding">
+            <div class="container text-center anim-fade-in">
+                <p>prishは、ネイルが特別なものではなく、<br>「日常的に」楽しんでほしい！笑顔になってほしい！<br>という想いから...<br>『可愛い』『お手頃価格』『スピーディー』を<br>コンセプトとしたサロンです。</p>
+                <p>それとともに、ネイリストも笑顔で安心して<br>働くことができる雇用環境を目指しています。</p>
+            </div>
+        </section>
+
 
         <!-- ===== Message & Strengths ===== -->
         <section id="strengths" class="strengths section-padding">
             <div class="container">
-                <h2 class="section-title anim-fade-in">私たちの5つの強み</h2>
-                <p class="section-subtitle anim-fade-in">未経験でも安心してプロを目指せる理由がここにあります。</p>
                 <ul class="strengths__grid">
                     <li class="strength-card anim-fade-in-up" style="--delay: 0s;">
-                        <h3 class="strength-card__title">充実の研修制度</h3>
-                        <p>ゼロからプロの技術が身につく独自のカリキュラム。接客マナーから最新のデザインまで、丁寧に指導します。</p>
+                        <div class="strength-card__image"><img src="assets/img/icon-placeholder.svg" alt=""></div>
+                        <h3 class="strength-card__title">[研修] 2か月でネイリストデビュー</h3>
                     </li>
                     <li class="strength-card anim-fade-in-up" style="--delay: 0.1s;">
-                        <h3 class="strength-card__title">資格取得を全力サポート</h3>
-                        <p>JNECネイリスト技能検定やJNAジェルネイル技能検定など、資格取得にかかる費用や練習を会社が支援します。</p>
+                        <div class="strength-card__image"><img src="assets/img/icon-placeholder.svg" alt=""></div>
+                        <h3 class="strength-card__title">[資格] 1級、上級まで無料取得</h3>
                     </li>
                     <li class="strength-card anim-fade-in-up" style="--delay: 0.2s;">
-                        <h3 class="strength-card__title">確かな技術が身につく</h3>
-                        <p>トレンドを追うだけでなく、お客様一人ひとりに合わせた提案力と、一生モノの確かな技術を習得できます。</p>
+                        <div class="strength-card__image"><img src="assets/img/icon-placeholder.svg" alt=""></div>
+                        <h3 class="strength-card__title">[技術] 認定講師のトレンド技術講座</h3>
                     </li>
                     <li class="strength-card anim-fade-in-up" style="--delay: 0.3s;">
-                        <h3 class="strength-card__title">多様なキャリアパス</h3>
-                        <p>トップネイリスト、店長、講師、本部スタッフなど、あなたの志向に合わせたキャリアを描ける環境です。</p>
+                        <div class="strength-card__image"><img src="assets/img/icon-placeholder.svg" alt=""></div>
+                        <h3 class="strength-card__title">[将来] 独立・転職も応援！</h3>
                     </li>
                     <li class="strength-card anim-fade-in-up" style="--delay: 0.4s;">
-                        <h3 class="strength-card__title">安心して働ける制度</h3>
-                        <p>社会保険完備、完全週休2日制、産休・育休制度も充実。プライベートも大切にしながら働けます。</p>
+                        <div class="strength-card__image"><img src="assets/img/icon-placeholder.svg" alt=""></div>
+                        <h3 class="strength-card__title">[制度] 月給26万円&土日休み可</h3>
                     </li>
                 </ul>
             </div>
@@ -94,53 +98,29 @@
         <!-- ===== FAQ ===== -->
         <section id="faq" class="faq section-padding">
             <div class="container">
-                <h2 class="section-title anim-fade-in">よくあるご質問</h2>
+                <h2 class="section-title anim-fade-in">FAQ: よくある質問に社員が答えます！</h2>
                 <div class="faq__list">
-                    <div class="faq-item anim-fade-in-up">
-                        <button class="faq-item__question" aria-expanded="false" aria-controls="faq-answer-1">
-                            本当に未経験でも大丈夫ですか？
-                        </button>
-                        <div class="faq-item__answer" id="faq-answer-1" hidden>
-                            <p>はい、もちろんです。現在のスタッフの9割以上が未経験からのスタートです。基礎から学べる研修制度があるのでご安心ください。</p>
+                    <div class="faq-item-new anim-fade-in-up">
+                        <h3 class="faq-item-new__question">サロン経験がないけど大丈夫？</h3>
+                        <div class="faq-item-new__answer">
+                            <div class="faq-item-new__img-wrapper">
+                                <img src="assets/img/icon-placeholder.svg" alt="社員画像">
+                                <span>上野店スタッフ○○○○</span>
+                            </div>
+                            <p>私も前職は飲食店。サロンの9割が未経験からのスタートです！今は働きながら資格取得を目指してます。社員のほとんどが未経験からのスタートです。美容業界が初めての人も多いから、分からないことも親身になって教えてもらえます。</p>
                         </div>
                     </div>
-                    <div class="faq-item anim-fade-in-up">
-                        <button class="faq-item__question" aria-expanded="false" aria-controls="faq-answer-2">
-                            手先が不器用なのですが…
-                        </button>
-                        <div class="faq-item__answer" id="faq-answer-2" hidden>
-                            <p>心配いりません。大切なのは「好き」という気持ちと練習です。多くの先輩が練習を重ねて、お客様に喜ばれるネイリストになっています。</p>
-                        </div>
-                    </div>
-                    <div class="faq-item anim-fade-in-up">
-                        <button class="faq-item__question" aria-expanded="false" aria-controls="faq-answer-3">
-                            研修中の給与は出ますか？
-                        </button>
-                        <div class="faq-item__answer" id="faq-answer-3" hidden>
-                            <p>はい、研修期間中も規定の給与をお支払いします。また、研修にかかる費用はすべて会社が負担しますのでご安心ください。</p>
-                        </div>
-                    </div>
-                    <div class="faq-item anim-fade-in-up">
-                        <button class="faq-item__question" aria-expanded="false" aria-controls="faq-answer-4">
-                            ノルマはありますか？
-                        </button>
-                        <div class="faq-item__answer" id="faq-answer-4" hidden>
-                            <p>個人ノルマはありません。チーム全体でお客様の満足度を高めることを目標にしています。インセンティブ制度はございます。</p>
+                    <div class="faq-item-new anim-fade-in-up">
+                        <h3 class="faq-item-new__question">制服や身なりの規定はありますか？</h3>
+                        <div class="faq-item-new__answer">
+                            <div class="faq-item-new__img-wrapper">
+                                <img src="assets/img/icon-placeholder.svg" alt="社員画像">
+                                <span>銀座店店長○○○○</span>
+                            </div>
+                            <p>髪色については一部規定がありますが、綺麗に保っていただければOKです。</p>
                         </div>
                     </div>
                 </div>
-            </div>
-        </section>
-
-        <!-- ===== Mid CTA ===== -->
-        <section class="mid-cta section-padding">
-            <div class="container anim-fade-in">
-                <h2 class="mid-cta__title">まずは、サロンの雰囲気を<br>見に来ませんか？</h2>
-                <p class="mid-cta__text">履歴書不要・私服OKのカジュアルな見学・説明会です。<br>少しでも気になったら、お気軽にご予約ください。</p>
-                <a href="#" target="_blank" rel="noopener noreferrer" class="cta-button cta-button--large">
-                    見学・説明会を予約する
-                    <span class="arrow-icon" aria-hidden="true"></span>
-                </a>
             </div>
         </section>
 
@@ -148,29 +128,47 @@
         <section id="requirements" class="requirements section-padding">
             <div class="container">
                 <h2 class="section-title anim-fade-in">募集要項</h2>
-                <div class="requirements__accordion anim-fade-in-up">
-                    <details class="requirements-item">
-                        <summary class="requirements-item__summary">
-                            <div class="requirements-item__header">
-                                <span class="requirements-item__job-title">ネイリスト</span>
-                                <span class="requirements-item__employment-type">正社員・契約社員</span>
-                            </div>
-                            <p class="requirements-item__salary">月給23万円〜 ＋ 各種手当</p>
-                            <p class="requirements-item__location">東京都内（渋谷、新宿、銀座など）</p>
-                        </summary>
-                        <div class="requirements-item__body">
-                            <dl>
-                                <dt>職種</dt><dd>ネイリスト</dd>
-                                <dt>雇用形態</dt><dd>正社員・契約社員 ※試用期間6ヶ月</dd>
-                                <dt>給与</dt><dd>月給23万円〜40万円＋インセンティブ＋各種手当<br>※経験・スキルを考慮の上、決定します。</dd>
-                                <dt>勤務地</dt><dd>東京都内の各店舗（渋谷、新宿、銀座、池袋、恵比寿など）<br>※希望を考慮します。</dd>
-                                <dt>勤務時間</dt><dd>10:00〜22:00 の間でシフト制（実働8時間）</dd>
-                                <dt>休日休暇</dt><dd>完全週休2日制（シフト制）、年末年始休暇、有給休暇、慶弔休暇、産前・産後休暇、育児休暇</dd>
-                                <dt>待遇・福利厚生</dt><dd>昇給年2回、賞与年2回、社会保険完備、交通費全額支給、研修制度、資格取得支援制度、社員割引、制服貸与</dd>
-                                <dt>応募資格</dt><dd>学歴・経験不問。ネイルに興味がある方。第二新卒、フリーター歓迎。</dd>
-                            </dl>
-                        </div>
-                    </details>
+                <div class="requirements-content anim-fade-in-up">
+                    <dl>
+                        <dt>店名</dt><dd>ネイルサロンprish(プリッシュ)</dd>
+                        <dt>募集職種</dt><dd>ネイリスト</dd>
+                        <dt>勤務形態</dt><dd>【正社員】【契約社員】</dd>
+                        <dt>仕事内容</dt><dd>ネイリストとしての施術、接客業務と付随する業務</dd>
+                        <dt>給与</dt><dd>◆契約社員(月給制) 約18万円〜<br>◆正社員(月給制) 約25万円〜<br><small>※上記内容(25万円)は、23日出勤(職務手当1.6万円&1日平均20分程の残業代込み)の給与※業務手当詳細は福利厚生欄に記載あり</small></dd>
+                        <dt>応募資格</dt><dd>独自の研修システムがありますので、資格・経験の有無は問いません。<br>※経験者の方でブランクのある方でも全く問題ございません！<br>・未経験者・経験者共通<br>(1)月に20日以上働ける方<br>(2)平日22:00まで働ける方<br>(3)長期で働ける方</dd>
+                        <dt>勤務時間</dt><dd>平日(早番)11:30〜20:30(実働8時間)<br>平日(通常)12:30〜21:30(実働8時間)<br>土日祝 10:30〜20:00(実働8.5時間)</dd>
+                        <dt>勤務地</dt><dd>
+                            <p><strong>〜東京都〜</strong><br>◆ネイルサロンprish(プリッシュ)銀座店<br>東京都中央区銀座1-4-9 第一田村ビル4F (各線 有楽町駅より徒歩2分 / 各線 銀座駅より徒歩5分)</p>
+                            <p>◆ネイルサロンprish(プリッシュ)上野店<br>東京都台東区上野6-16-19 新丸屋ビルB1F (各線 上野駅より徒歩2分)</p>
+                            <p><strong>〜神奈川県〜</strong><br>◆ネイルサロンprish(プリッシュ)横浜店<br>神奈川県横浜市西区南幸2-19-4 折目ビル701 (各線 横浜駅より徒歩5分)</p>
+                        </dd>
+                        <dt>待遇</dt><dd>
+                            <ul>
+                                <li>▶安心のデビュー前研修、2ヶ月 ※研修初日が入社日!お給料発生します!!→同期入社最大5人に1人の講師が付きっきりで研修を行います。</li>
+                                <li>◇社会保険、雇用保険完備 ※雇用形態に関係なく全員が加入します。</li>
+                                <li>▶交通費全額支給 (上限月3万円、バス定期代は要相談)</li>
+                                <li>◆各種手当 →職務手当を最大1.6万円支給(※項目ごとに査定後、支給の有無を決定します。) →副店長以上は売上に応じてインセンティブ支給</li>
+                                <li>▶有給休暇 →2023年度実績 取得率100%</li>
+                                <li>▶産休・育休制度あり →2023年度実績7名 *現在育児休業中</li>
+                                <li>◆マタニティ制度(特別休憩や特別シフト等)</li>
+                                <li>▶残業手当支給(法定通り)</li>
+                                <li>▶各種予防接種(年1回)</li>
+                                <li>▶健康診断(年1回)</li>
+                                <li>◆制服支給</li>
+                                <li>◆各種イベント(夏・冬・定期開催)休日</li>
+                                <li>◆本部認定講師スクール(講座)が無料! ・ネイリスト検定3級~1級講座 ・ジェル検定初級~上級講座 ・各種技術講座 →必要な道具、資格受験費用も会社負担! ※受験費用負担は合格時のみ</li>
+                                <li>▶研修期間は昼食付き! ・カレーや牛丼などのレトルト食品やパックご飯 等を用意しています♪</li>
+                            </ul>
+                        </dd>
+                        <dt>休日</dt><dd>
+                            <ul>
+                                <li>休日は全てのサロン共通。</li>
+                                <li>◆5日/月~11日/月の範囲で選択可※1ヶ月単位のシフト制</li>
+                                <li>※1ヶ月の中で3日間好きな日を指定してお休みできます(土曜・日曜・祝日、連休も可能)</li>
+                                <li>※有給休暇と合わせて1週間以上の長期休暇も可能(繁忙期を除く)</li>
+                            </ul>
+                        </dd>
+                    </dl>
                 </div>
             </div>
         </section>
@@ -178,113 +176,60 @@
         <!-- ===== Flow ===== -->
         <section id="flow" class="flow section-padding">
             <div class="container">
-                <h2 class="section-title anim-fade-in">入社後の流れ</h2>
+                <h2 class="section-title anim-fade-in">応募からネイリストデビューまで</h2>
                 <ol class="flow__timeline">
                     <li class="flow-item anim-fade-in-up" style="--delay: 0s;">
                         <div class="flow-item__number">01</div>
-                        <h3 class="flow-item__title">研修期間 (2ヶ月)</h3>
-                        <p class="flow-item__text">同期と一緒に、ネイルの基礎知識、接客マナーを学びます。モデルさんの手で実践練習を重ねます。</p>
+                        <h3 class="flow-item__title">ご応募・ご予約</h3>
+                        <p class="flow-item__text">予約システムよりサロン見学・説明会をご予約下さい。</p>
                     </li>
                     <li class="flow-item anim-fade-in-up" style="--delay: 0.1s;">
                         <div class="flow-item__number">02</div>
-                        <h3 class="flow-item__title">サロンデビュー (3-6ヶ月)</h3>
-                        <p class="flow-item__text">先輩のサポートを受けながら、実際にお客様への施術デビュー。少しずつメニューの幅を広げていきます。</p>
+                        <h3 class="flow-item__title">見学・説明会・面接</h3>
+                        <p class="flow-item__text">サロンにて見学・説明会後、ご希望の方は面接と適正テストを行います。履歴書不要・服装自由です。</p>
                     </li>
                     <li class="flow-item anim-fade-in-up" style="--delay: 0.2s;">
                         <div class="flow-item__number">03</div>
-                        <h3 class="flow-item__title">正社員登用・キャリアアップ</h3>
-                        <p class="flow-item__text">Jr.ネイリストからネイリストへ。その後は、実力に応じて昇給・昇格。店長や講師への道も開かれています。</p>
+                        <h3 class="flow-item__title">合否連絡</h3>
+                        <p class="flow-item__text">面接後、約1週間で合否のご連絡をいたします。</p>
                     </li>
                 </ol>
-            </div>
-        </section>
-
-        <!-- ===== Benefits ===== -->
-        <section id="benefits" class="benefits section-padding">
-            <div class="container">
-                <h2 class="section-title anim-fade-in">待遇・福利厚生</h2>
-                <ul class="benefits__grid">
-                    <li class="benefit-item anim-fade-in-up" style="--delay: 0s;">
-                        <img src="assets/img/icon-placeholder.svg" alt="" aria-hidden="true" class="benefit-item__icon">
-                        <h3 class="benefit-item__title">交通費全額支給</h3>
+                <h3 class="sub-section-title anim-fade-in">研修</h3>
+                <ol class="flow__timeline">
+                    <li class="flow-item anim-fade-in-up" style="--delay: 0s;">
+                        <div class="flow-item__number">1ヶ月目</div>
+                        <h3 class="flow-item__title">基本技術と基本知識を学びます</h3>
+                        <p class="flow-item__text">プレパレーション(自爪の下準備)、カラーリング・ベースデザインの塗り方、ジェルオフ、デザインアート、店内オペレーション(来店から退店までの流れ、言葉遣いと接客マナー)</p>
                     </li>
-                    <li class="benefit-item anim-fade-in-up" style="--delay: 0.1s;">
-                        <img src="assets/img/icon-placeholder.svg" alt="" aria-hidden="true" class="benefit-item__icon">
-                        <h3 class="benefit-item__title">社会保険完備</h3>
+                    <li class="flow-item anim-fade-in-up" style="--delay: 0.1s;">
+                        <div class="flow-item__number">2ヶ月目</div>
+                        <h3 class="flow-item__title">サロンワークの習得</h3>
+                        <p class="flow-item__text">スチューデントサロン勤務、店舗研修</p>
                     </li>
-                    <li class="benefit-item anim-fade-in-up" style="--delay: 0.2s;">
-                        <img src="assets/img/icon-placeholder.svg" alt="" aria-hidden="true" class="benefit-item__icon">
-                        <h3 class="benefit-item__title">充実の研修制度</h3>
-                    </li>
-                    <li class="benefit-item anim-fade-in-up" style="--delay: 0.3s;">
-                        <img src="assets/img/icon-placeholder.svg" alt="" aria-hidden="true" class="benefit-item__icon">
-                        <h3 class="benefit-item__title">資格取得支援</h3>
-                    </li>
-                    <li class="benefit-item anim-fade-in-up" style="--delay: 0.4s;">
-                        <img src="assets/img/icon-placeholder.svg" alt="" aria-hidden="true" class="benefit-item__icon">
-                        <h3 class="benefit-item__title">社員割引制度</h3>
-                    </li>
-                    <li class="benefit-item anim-fade-in-up" style="--delay: 0.5s;">
-                        <img src="assets/img/icon-placeholder.svg" alt="" aria-hidden="true" class="benefit-item__icon">
-                        <h3 class="benefit-item__title">完全週休2日制</h3>
-                    </li>
-                    <li class="benefit-item anim-fade-in-up" style="--delay: 0.6s;">
-                        <img src="assets/img/icon-placeholder.svg" alt="" aria-hidden="true" class="benefit-item__icon">
-                        <h3 class="benefit-item__title">産休・育休制度</h3>
-                    </li>
-                    <li class="benefit-item anim-fade-in-up" style="--delay: 0.7s;">
-                        <img src="assets/img/icon-placeholder.svg" alt="" aria-hidden="true" class="benefit-item__icon">
-                        <h3 class="benefit-item__title">昇給・賞与あり</h3>
-                    </li>
-                </ul>
-            </div>
-        </section>
-
-        <!-- ===== Application Steps ===== -->
-        <section id="steps" class="steps section-padding">
-            <div class="container">
-                <h2 class="section-title anim-fade-in">応募までの簡単4ステップ</h2>
-                <ol class="steps__list">
-                    <li class="step-item anim-fade-in-up" style="--delay: 0s;">
-                        <span class="step-item__number">1</span>
-                        <h3 class="step-item__title">見学・説明会</h3>
-                        <p class="step-item__text">まずは気軽に見学・説明会へ。オンラインも可能です。</p>
-                    </li>
-                    <li class="step-item anim-fade-in-up" style="--delay: 0.1s;">
-                        <span class="step-item__number">2</span>
-                        <h3 class="step-item__title">エントリー</h3>
-                        <p class="step-item__text">専用フォームから、簡単な情報を入力して応募します。</p>
-                    </li>
-                    <li class="step-item anim-fade-in-up" style="--delay: 0.2s;">
-                        <span class="step-item__number">3</span>
-                        <h3 class="step-item__title">面接 (1~2回)</h3>
-                        <p class="step-item__text">あなたの想いや目標を聞かせてください。人物重視の採用です。</p>
-                    </li>
-                    <li class="step-item anim-fade-in-up" style="--delay: 0.3s;">
-                        <span class="step-item__number">4</span>
-                        <h3 class="step-item__title">内定・入社</h3>
-                        <p class="step-item__text">ようこそ！私たちと一緒に、プロのネイリストを目指しましょう。</p>
+                    <li class="flow-item anim-fade-in-up" style="--delay: 0.2s;">
+                        <div class="flow-item__number">3ヶ月目</div>
+                        <h3 class="flow-item__title">サロンデビュー</h3>
+                        <p class="flow-item__text">施術しながらご自身のペースで無理なく業務範囲を広げていきましょう！スキルアップ&昇給が目指せます！</p>
                     </li>
                 </ol>
             </div>
         </section>
 
         <!-- ===== Final CTA ===== -->
-        <section id="final-cta" class="final-cta section-padding">
+        <section id="apply" class="final-cta section-padding">
             <div class="container anim-fade-in">
-                <h2 class="final-cta__title">さあ、あなたもプロのネイリストへ。</h2>
-                <p class="final-cta__text">「好き」を仕事にする第一歩を、ここから踏み出しませんか？<br>ご応募、心よりお待ちしています。</p>
+                <h2 class="final-cta__title">応募</h2>
+                <p class="final-cta__text">サロン見学・応募は以下の予約システムより受け付けております。</p>
                 <a href="#" target="_blank" rel="noopener noreferrer" class="cta-button cta-button--large">
-                    今すぐ応募する
+                    サロン見学・応募
                     <span class="arrow-icon" aria-hidden="true"></span>
                 </a>
                 <div class="final-cta__links">
-                    <p>＼ 各店の見学・説明会はこちらから ／</p>
                     <ul>
-                        <li><a href="#" target="_blank" rel="noopener noreferrer">渋谷店</a></li>
-                        <li><a href="#" target="_blank" rel="noopener noreferrer">新宿店</a></li>
-                        <li><a href="#" target="_blank" rel="noopener noreferrer">銀座店</a></li>
-                        <li><a href="#" target="_blank" rel="noopener noreferrer">池袋店</a></li>
+                        <li><a href="#" target="_blank" rel="noopener noreferrer">prish 銀座店</a></li>
+                        <li><a href="#" target="_blank" rel="noopener noreferrer">prish 上野店</a></li>
+                        <li><a href="#" target="_blank" rel="noopener noreferrer">prish 横浜店</a></li>
+                        <li><a href="#" target="_blank" rel="noopener noreferrer">ネイルデザイン</a></li>
                     </ul>
                 </div>
             </div>
@@ -301,7 +246,7 @@
                         <li><a href="#">プライバシーポリシー</a></li>
                     </ul>
                 </nav>
-                <p class="footer__copy">&copy; 2025 Nail Salon Name. All Rights Reserved.</p>
+                <p class="footer__copy">&copy; 2025 prish. All Rights Reserved.</p>
             </div>
         </div>
     </footer>
