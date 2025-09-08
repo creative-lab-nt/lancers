@@ -243,9 +243,14 @@ body[data-hero-theme="hands"] .hero__image--hands {
 }
 
 /* ===== Intro ===== */
+.intro .container {
+    max-width: 720px;
+}
+
 .intro p {
     font-size: 1.1rem;
     line-height: 1.8;
+    text-align: center;
 }
 
 .intro p:first-child {
@@ -364,6 +369,11 @@ body[data-hero-theme="hands"] .hero__image--hands {
 
 .requirements-content dd ul li {
     margin-bottom: 0.5em;
+}
+
+.requirements__more-button-wrapper {
+    text-align: center;
+    margin-top: 40px;
 }
 
 /* ===== Flow ===== */
